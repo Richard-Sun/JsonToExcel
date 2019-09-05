@@ -17,7 +17,7 @@ public class Entrance {
         JSONArray array = JSON.parseArray(new String(buf));
         JsonToExcel.jsonToExcel("1.xlsx", array, 0, 0);*/
 
-        ImageToExcel.imageToExcel("2.xlsx","1.jpg",0,0);
+        ImageToExcel.imageToExcel("2.xlsx","2.jpg",0,0);
     }
 
 
